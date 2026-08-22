@@ -13,3 +13,4 @@ INSERT INTO employee(name, position, department, hire_date, salary)
 TRUNCATE TABLE employee;
 
 TRUNCATE TABLE employee RESTART IDENTITY;
+
