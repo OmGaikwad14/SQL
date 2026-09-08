@@ -10,7 +10,7 @@ INSERT INTO employee(name, position, department, hire_date, salary)
 -- ALTER TABLE employee
 -- RENAME COLUMN postiion TO position
 
-TRUNCATE TABLE employee;
+-- TRUNCATE TABLE employee;
 
 TRUNCATE TABLE employee RESTART IDENTITY;
 
