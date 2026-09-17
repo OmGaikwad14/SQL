@@ -29,9 +29,13 @@ RENAME TO customers;
 
 SELECT * FROM customers ORDER BY user_id ASC;
 
+-- Add new column
+ALTER TABLE customers
+ADD COLUMN department VARCHAR(50);
 
-
-
+-- Delete column
+ALTER TABLE customers
+DROP COLUMN department;
 
 
 
