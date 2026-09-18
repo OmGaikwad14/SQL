@@ -7,5 +7,7 @@ CREATE TABLE employee(
 	salary NUMERIC(10,2)
 );
 
-SELECT * FROM employee;
+SELECT * FROM employee1;
 
+ALTER TABLE employee
+RENAME TO employee1;
