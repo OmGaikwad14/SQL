@@ -28,7 +28,7 @@ UPDATE users
 SET age=24
 WHERE username='Vishal';
 
-SELECT * FROM users ORDER BY user_id ASC;
+SELECT * FROM customers ORDER BY user_id ASC;
 
 UPDATE users
 SET city='Gujrat'
@@ -42,3 +42,20 @@ WHERE username='Omkar';
 UPDATE users
 SET age=age+1
 WHERE email LIKE '%@gmail.com';
+
+
+DELETE FROM customers
+WHERE user_id=7;
+
+
+UPDATE customers
+SET age = CASE user_id
+	WHEN 1 THEN 23
+	WHEN 2 THEN 22
+	WHEN 3 THEN 21
+	WHEN 4 THEN 24
+	WHEN 5 THEN 19
+END
+WHERE user_id IN (user_id);
+
+SELECT * FROM customers ORDER BY user_id ASC;
