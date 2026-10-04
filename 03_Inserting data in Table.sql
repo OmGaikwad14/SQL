@@ -7,8 +7,8 @@ INSERT INTO employee(name, position, department, hire_date, salary)
 			('Shubham Talekar', 'Marketing Specialist', 'Marketing', '2024-09-24', 70000.00),
 			('Onkar Kale', 'Sales Executive', 'Sales', '2023-08-19', 35000.00);
 
--- ALTER TABLE employee
--- RENAME COLUMN postiion TO position
+ALTER TABLE employee
+RENAME COLUMN postiion TO position
 
 -- TRUNCATE TABLE employee;
 
